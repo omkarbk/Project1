@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <style>
+        
+        .bk{
+            background-image: url(https://www.teahub.io/photos/full/109-1090818_gym-background.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 700px;
+            width: 100%;
+        }
+        /* header{
+            background-color: rgb(193, 193, 216);
+            height:70px
+        } */
+        .left{
+            position: absolute;
+            top: 20px;
+            left: 12px;
+            /* border: 2px solid red; */
+            text-align: center;
+        }
+        .left img{
+            width:70px;
+            padding: 0px;
+            background-color: white;
+        }
+        .mid{
+            position: relative;
+            width: 38%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+            padding: 2px ;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .mid .navbar{
+            list-style-type: none;
+        }
+        .navbar li{
+            display: inline-block;
+            margin: 3px 6px;
+            padding: 3px 7px;
+            
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            
+        }
+        .right{
+            position: absolute;
+            top: 25px;
+            right: 12px;
+            /* border: 2px solid red; */
+        }
+        .btn{
+            color: white;
+            background-color: black;
+            margin: 15px 9px;
+            padding:0px 12px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: gray;
+            /* color: blueviolet; */
+        }
+        .form{
+            position: absolute;
+            top: 200px;
+            right: 50px;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 300px;
+            padding: 10px 10px;
+            border-radius: 10px;
+            text-align: justify;
+            text-align-last: center;
+        }
+        .form input{
+            margin: 5px;
+            width: 90%;
+            size: 30px;
+            border-radius: 5px;
+        }
+        .form h1{
+            color: rgb(243, 243, 89);
+            font-family: 'Open Sans', sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="bk">
+        <header>
+            <div class="left">
+                <img src="img/png-clipart-gym-logo-mark-gym-removebg-preview.png" alt="">
+                
+            </div>
+            <div class="mid">
+                    <ul class="navbar">
+                        <li><a href="#" class="avtive">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">fitness calculator</a></li>
+                        <li><a href="#"> Contact Us</a></li>
+                    </ul>
+            </div>
+            <div class="right">
+                <button class="btn">call us now</button>
+                <button class="btn">Email us</button>
+                <div class="form">
+                    <form action="xyx.php">
+                        <h1>Join the best gym of Shevgaon now</h1>
+                        <input type="text" name="Name" placeholder="Enter your Name" required>
+                        <input type="number" name="Age" placeholder="Enter your Age " required>
+                        <input type="text" name="Gender" placeholder="Enter your Gender " required>
+                        <input type="text" name="Locality" placeholder="Enter your Locality" required>
+                        <input type="mail" name="Email" placeholder="Enter your Email id " required>
+                        <input type="number" name="ph_no" placeholder="Enter your Phone number " required>
+                        <button type="submit"name="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </header>
+    </div>
+
+</body>
+</html>
